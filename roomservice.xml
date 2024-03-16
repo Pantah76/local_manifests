@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!--Remotes-->
+    <remote name="source"        fetch="https://github.com/Pantah76"/>
+
+    <!--Devices Trees-->
+    <project name="android_device_google_pantah"                        path="device/google/pantah"             remote="source"      revision="pixys" />
+    <project name="android_device_google_gs201"                         path="device/google/gs201"              remote="source"      revision="pixys" />
+
+    <!--Vendors Trees-->
+    <project name="proprietary_vendor_google_panther"                   path="vendor/google/panther"            remote="source"      revision="lineage-21" />
+    <project name="proprietary_vendor_samsung_cheetah"                  path="vendor/samsung/cheetah"           remote="source"      revision="lineage-21" />
+
+    <!--Kernel Tree-->
+    <project name="android_kernel_google_gs201"                         path="kernel/google/gs201"              remote="source"      revision="lineage-21" />
+
+    <!-- Dependencies -->
+    <project name="packages_apps_PixelParts"                            path="packages/apps/PixelParts"         remote="source"      revision="udc" />
+</manifest>
