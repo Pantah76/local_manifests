@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!--Remove Project-->
+    <remove-project name="pixys-gitlab/vendor_gms" />
+    <remove-project name="PixysOS/vendor_pixys" />
+    
     <!--Remotes-->
     <remote name="source"        fetch="https://github.com/Pantah76"/>
     <remote name="gitlab"        fetch="https://gitlab.com/" />
