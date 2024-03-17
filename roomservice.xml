@@ -3,6 +3,7 @@
 
     <!--Remotes-->
     <remote name="source"        fetch="https://github.com/Pantah76"/>
+    <remote name="gitlab"        fetch="https://gitlab.com/" />
 
     <!--Devices Trees-->
     <project name="android_device_google_pantah"                        path="device/google/pantah"             remote="source"      revision="pixys" />
@@ -17,4 +18,7 @@
 
     <!-- Dependencies -->
     <project name="packages_apps_PixelParts"                            path="packages/apps/PixelParts"         remote="source"      revision="udc" />
+
+    <!-- Vendor GMS -->
+    <project path="vendor/gms" name="DerpFest/vendor_gms" remote="gitlab" revision="14" clone-depth="1" />
 </manifest>
